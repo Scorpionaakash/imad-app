@@ -1,4 +1,4 @@
-function() {
+(function() {
   function $(id) {
     return document.getElementById(id);
   }
@@ -26,4 +26,4 @@ function() {
     }, 1000);
   });
 
-}();
+}());
