@@ -1,5 +1,4 @@
-console.log('Loaded!');
-(function() {
+function() {
   function $(id) {
     return document.getElementById(id);
   }
@@ -27,4 +26,4 @@ console.log('Loaded!');
     }, 1000);
   });
 
-}());
+}();
